@@ -1,31 +1,264 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloomly Studio | Perancang Buket Bunga</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/flowers.png" type="image/x-icon">
-    <title>Flowers</title>
+    <link rel="icon" href="img/flowers.png" type="image/png">
 </head>
 <body>
-    <div class="greetings">
-    <!-- silahkan menambah kata sesuai keinginan dengan <span>text...</span -->
-        <span>I</span>
-        <span>L</span>
-        <span>O</span>
-        <span>V</span>
-        <span>E</span>
-        <span>Y</span>
-    </div>
-    <div class="description">
-        <span>Aku harap kamu bisa bangga ya punya aku</span>
-    </div>
-    <div class="button">
-        <button>
-            <a href="page2.html">lanjut</a>
-        </button>
-        
-    </div>
+    <header class="site-header" id="home">
+        <div class="container header-layout">
+            <a href="#home" class="logo">Bloomly<span>Studio</span></a>
+            <nav class="site-nav" aria-label="Navigasi utama">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+                <ul id="primary-navigation" class="nav-links">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#collections">Koleksi</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-layout">
+                <div class="hero-copy">
+                    <p class="eyebrow">Studio florist butik di Jakarta</p>
+                    <h1 id="hero-title">Buket bunga segar untuk setiap kisah istimewa Anda</h1>
+                    <p class="lead">Kami menggabungkan bunga musiman pilihan, teknik merangkai modern, dan sentuhan personal agar setiap rangkaian mewakili emosi Anda.</p>
+                    <div class="cta-group">
+                        <a class="btn primary" href="#collections">Jelajahi Koleksi</a>
+                        <a class="btn ghost" href="#contact">Konsultasi Gratis</a>
+                    </div>
+                    <dl class="metrics" aria-label="Statistik Bloomly Studio">
+                        <div>
+                            <dt>120+</dt>
+                            <dd>Rangkaian siap kirim setiap bulan</dd>
+                        </div>
+                        <div>
+                            <dt>48 jam</dt>
+                            <dd>Proses custom bouquet</dd>
+                        </div>
+                        <div>
+                            <dt>98%</dt>
+                            <dd>Pelanggan kembali memesan</dd>
+                        </div>
+                    </dl>
+                </div>
+                <aside class="hero-card" aria-label="Sorotan layanan">
+                    <p class="badge">Sejak 2016</p>
+                    <h2>Signature Bouquet</h2>
+                    <p class="card-text">Perpaduan mawar eklektik, ranunculus, dan eucalyptus untuk wangi lembut yang tahan lama.</p>
+                    <ul>
+                        <li>Bunga dipanen langsung dari petani lokal</li>
+                        <li>Pilihan warna dapat disesuaikan</li>
+                        <li>Gratis kartu ucapan &amp; pengiriman area Jabodetabek</li>
+                    </ul>
+                    <a class="btn secondary" href="#contact">Pesan Sekarang</a>
+                </aside>
+            </div>
+        </section>
+
+        <section id="about" class="section" aria-labelledby="about-title">
+            <div class="container split">
+                <div>
+                    <h2 id="about-title">Merangkai emosi melalui detail yang penuh makna</h2>
+                    <p>Kami percaya setiap momen berharga pantas dikenang dengan rangkaian bunga yang dirancang khusus. Tim Bloomly Studio terdiri dari florist bersertifikat yang senang berdialog untuk memahami cerita Anda, mulai dari seleksi bunga hingga gaya rangkaian.</p>
+                    <p>Dengan dukungan jaringan petani lokal dan pemasok internasional, kami selalu memastikan bunga segar berkualitas premium hadir tepat waktu untuk hari penting Anda.</p>
+                </div>
+                <div class="about-highlights" aria-label="Nilai utama">
+                    <article>
+                        <h3>Personalisasi penuh</h3>
+                        <p>Konsultasi 1-on-1 untuk memastikan warna, tekstur, dan aroma sesuai karakter penerima.</p>
+                    </article>
+                    <article>
+                        <h3>Pengiriman presisi</h3>
+                        <p>Armada internal dengan kontrol suhu menjaga bunga tetap prima hingga tiba di lokasi.</p>
+                    </article>
+                    <article>
+                        <h3>Komitmen berkelanjutan</h3>
+                        <p>Menggunakan kertas daur ulang dan foam bebas plastik untuk kemasan ramah lingkungan.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section muted" aria-labelledby="services-title">
+            <div class="container">
+                <h2 id="services-title" class="section-title">Layanan utama kami</h2>
+                <div class="service-grid">
+                    <article class="service-card">
+                        <h3>Custom Bouquet</h3>
+                        <p>Rangkai cerita cinta, ucapan terima kasih, atau surprise ulang tahun dengan kombinasi bunga sesuai permintaan Anda.</p>
+                        <ul>
+                            <li>3 konsep desain dalam 24 jam</li>
+                            <li>Kartu personal gratis</li>
+                            <li>Pengiriman fleksibel (pagi / sore)</li>
+                        </ul>
+                    </article>
+                    <article class="service-card">
+                        <h3>Dekorasi Acara</h3>
+                        <p>Dari lamaran intim hingga gala dinner, kami menata meja, backdrop, dan photobooth bernuansa elegan.</p>
+                        <ul>
+                            <li>Survey lokasi dan moodboard</li>
+                            <li>Koordinasi vendor pendukung</li>
+                            <li>Tim onsite selama acara</li>
+                        </ul>
+                    </article>
+                    <article class="service-card">
+                        <h3>Langganan Korporasi</h3>
+                        <p>Segarkan ruang kerja dengan rangkaian mingguan serta workshop merangkai khusus tim Anda.</p>
+                        <ul>
+                            <li>Kontrak fleksibel 1-12 bulan</li>
+                            <li>Pilihan tema sesuai brand</li>
+                            <li>Laporan pemakaian bulanan</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="collections" class="section" aria-labelledby="collections-title">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 id="collections-title">Koleksi pilihan Bloomly</h2>
+                    <p>Paket kurasi kami dirancang untuk membuat Anda tampil berkesan tanpa repot memilih satu per satu.</p>
+                </div>
+                <div class="collection-grid">
+                    <article class="collection-card">
+                        <h3>Golden Hour</h3>
+                        <p>Mawar aprikot, pampas, dan helenium yang hangat—sempurna untuk ucapan selamat atau housewarming.</p>
+                        <span class="price">Mulai 650K</span>
+                    </article>
+                    <article class="collection-card">
+                        <h3>Midnight Peony</h3>
+                        <p>Peony ungu tua dengan aksen anemon putih yang dramatis untuk hadiah penuh kejutan.</p>
+                        <span class="price">Mulai 780K</span>
+                    </article>
+                    <article class="collection-card">
+                        <h3>Nordic Breeze</h3>
+                        <p>Tulip putih, eucalyptus, dan lilac yang menenangkan—favorit pelanggan korporasi.</p>
+                        <span class="price">Mulai 720K</span>
+                    </article>
+                    <article class="collection-card">
+                        <h3>Bloom in a Box</h3>
+                        <p>Kotak akrilik dengan bunga preserved premium, tahan hingga 12 bulan tanpa perawatan.</p>
+                        <span class="price">Mulai 990K</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section muted" aria-labelledby="testimony-title">
+            <div class="container testimonial-layout">
+                <div>
+                    <h2 id="testimony-title">Apa kata mereka</h2>
+                    <p>Pelanggan kami berasal dari pasangan baru menikah, perusahaan teknologi, hingga event planner profesional.</p>
+                </div>
+                <div class="testimonials">
+                    <figure>
+                        <blockquote>“Tim Bloomly benar-benar memahami konsep intimate wedding kami. Instalasi bunga di venue terlihat menawan dari setiap sudut.”</blockquote>
+                        <figcaption>— Adinda &amp; Reza</figcaption>
+                    </figure>
+                    <figure>
+                        <blockquote>“Workshop merangkai bulanan selalu ditunggu tim kami. Materi disusun fun, hasil rangkaiannya bisa dibawa pulang.”</blockquote>
+                        <figcaption>— Clara, HR Manager</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta" aria-labelledby="cta-title">
+            <div class="container cta-layout">
+                <div>
+                    <h2 id="cta-title">Siap merayakan momen Anda?</h2>
+                    <p>Bagikan tanggal, tema, dan preferensi warna—kami akan kirimkan proposal awal dalam satu hari kerja.</p>
+                </div>
+                <form class="cta-form">
+                    <label>
+                        <span>Alamat surel</span>
+                        <input type="email" name="email" placeholder="nama@email.com" required>
+                    </label>
+                    <label>
+                        <span>Jenis acara</span>
+                        <input type="text" name="event" placeholder="Pernikahan, ulang tahun, corporate, dll." required>
+                    </label>
+                    <button type="submit" class="btn primary">Kirim Permintaan</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="section" aria-labelledby="contact-title">
+            <div class="container contact-layout">
+                <div>
+                    <h2 id="contact-title">Mari berdiskusi lebih lanjut</h2>
+                    <p>Tim kami siap membantu Senin–Minggu pukul 09.00–20.00 WIB. Datang langsung ke studio atau hubungi kami secara daring.</p>
+                    <ul class="contact-list">
+                        <li>
+                            <strong>Studio:</strong>
+                            <span>Jl. Wijaya Kusuma No. 18, Jakarta Selatan</span>
+                        </li>
+                        <li>
+                            <strong>WhatsApp:</strong>
+                            <a href="https://wa.me/6281234567890">+62 812-3456-7890</a>
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            <a href="mailto:hello@bloomlystudio.id">hello@bloomlystudio.id</a>
+                        </li>
+                        <li>
+                            <strong>Instagram:</strong>
+                            <a href="https://instagram.com/bloomlystudio">@bloomlystudio</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="map-card" aria-hidden="true">
+                    <div class="map-glow"></div>
+                    <p>Area layanan prioritas: Jabodetabek, Bandung, Surabaya</p>
+                    <p class="map-note">Pengiriman same-day tersedia untuk wilayah Jakarta.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-layout">
+            <p>© <span id="year"></span> Bloomly Studio. All rights reserved.</p>
+            <a href="#home" class="back-to-top">Kembali ke atas ↑</a>
+        </div>
+    </footer>
+
+    <script>
+        const yearElement = document.getElementById('year');
+        yearElement.textContent = new Date().getFullYear();
+
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', String(!expanded));
+            navLinks.classList.toggle('is-open');
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', event => {
+                const targetId = link.getAttribute('href').substring(1);
+                const target = document.getElementById(targetId);
+
+                if (target) {
+                    event.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth' });
+                    navLinks.classList.remove('is-open');
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
